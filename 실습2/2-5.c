@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <limits.h>
+
+int main(void)
+{
+	//CHAR TYPE MIN AND MAX
+	printf("SIGNED_CHAR_MIN: %d\n", CHAR_MIN);//SIGNED CHAR MIN
+	printf("SIGNED_CHAR_MAX: %d\n", CHAR_MAX);//SIGNED CHAR MAX
+	printf("UNSIGNED_CHAR_MIN: 0\n");//UNSIGNED CHAR MIN = 0
+	printf("UNSIGNED_CHAR_MAX: %d\n", UCHAR_MAX);//UNSIGNED CHAR MAX 
+	printf("\n");
+	//SHORT TYPE MIN AND MAX
+	printf("SIGNED_SHORT_MIN: %d\n", SHRT_MIN);//SINGED SHORT MIN
+	printf("SIGNED_SHORT_MAX: %d\n", SHRT_MAX);//SINGED SHORT MAX
+	printf("UNSIGNED_SHORT_MIN: 0\n");//UNSIGNED SHORT MIN = 0
+	printf("UNSIGNED_SHORT_MAX: %d\n", USHRT_MAX);//UNSINGED SHORT MAX
+	printf("\n");
+	//INT TYPE MIN AND MAX
+	printf("SIGNED_INT_MIN: %d\n", INT_MIN);//SINGED INT MIN
+	printf("SIGNED_INT_MAX: %d\n", INT_MAX);//SINGED INT MAX
+	printf("UNSIGNED_INT_MIN: 0\n");//UNSINGED INT MIN = 0
+	printf("UNSIGNED_INT_MAX: %u\n", UINT_MAX);//UNSINGED INT MAX
+	printf("\n");
+	//LONG TYPE MIN AND MAX
+	printf("SIGNED_LONG_MIN: %d\n", LONG_MIN);//SINGED LONG MIN
+	printf("SIGNED_LONG_MAX: %d\n", LONG_MAX);//SIGNED LONG MAX
+	printf("UNSIGNED_LONG_MIN: 0\n");//UNSIGNED LONG MIN = 0
+	printf("UNSIGNED_LONG_MAX: %u\n", ULONG_MAX);//UNSINGED LONG MAX 
+
+	return 0;
+}
+
+
+
+
